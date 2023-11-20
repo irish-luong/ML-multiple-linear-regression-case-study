@@ -31,7 +31,7 @@ Modeling the **demand** for shared bikes with the available independent variable
 ### Model for **cnt** prediction
 
 
-```cnt = 0.23xyr -0.06xholiday 0.05xweekday 0.02xworkingday 0.49xtemp -0.12xhum -0.18xwindspeed -0.25xlight_snow -0.06xmist -0.07xspring 0.04xsummer 0.09xwinter```
+```cnt = 0.24 + 0.23xyr -0.06xholiday 0.05xweekday 0.02xworkingday 0.49xtemp -0.12xhum -0.18xwindspeed -0.25xlight_snow -0.06xmist -0.07xspring 0.04xsummer 0.09xwinter```
 
 ```
 Dep. Variable:                    cnt   R-squared:                       0.834
@@ -47,7 +47,7 @@ Covariance Type:            nonrobust
 
 
 ### Model for **registered** prediction
-```registered = 0.25xyr 0.14xworkingday 0.38xtemp -0.11xhum -0.15xwindspeed -0.25xlight_snow -0.05xmist -0.1xspring 0.09xwinter```
+```registered = 0.24 + 0.25xyr 0.14xworkingday 0.38xtemp -0.11xhum -0.15xwindspeed -0.25xlight_snow -0.05xmist -0.1xspring 0.09xwinter```
 
 ```
 Dep. Variable:             registered   R-squared:                       0.840
